@@ -418,6 +418,11 @@
         .fade-up.in-view { opacity: 1; transform: translateY(0); }
 
         @media (max-width: 768px) {
+          .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 28px;
+          }
           nav { padding: 16px 24px; }
           .nav-links { display: none; }
           .hero { padding: 100px 24px 60px; }
